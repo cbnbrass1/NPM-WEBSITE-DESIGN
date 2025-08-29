@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPM</title>
+    
+    <style>
+      *{
+        margin: 0px;
+        padding: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .firstnav a{
+        text-decoration: none;
+        background: #fff;
+        border-bottom: 10px;
+        border-radius: 12px;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+    .search{
+       display: flex;
+       flex-wrap: wrap;
+       gap: 10px;
+       border-radius: 20px;
+       
+    }
+    .searchbtn{
+        background-color: black;
+        color: white;
+        margin-left: -6px;
+        padding: 15px;
+       
+    }
+    input{
+        width: 950px;
+        height: 30px;
+        background-color: rgb(241, 237, 237);
+        border: none;
+        
+    }
+    .in{
+        background-color: blue;
+        color: whitesmoke;
+        border: none;
+        padding: 17px;
+    
+    }
+    .up{
+        background-color: blue;
+        color: whitesmoke;
+        border: none;
+        padding: 17px;
+    }
+    .in:hover{
+        background-color: rgb(85, 85, 218);
+    }
+    .up:hover{
+        background-color: rgb(85, 85, 218);
+    }
+    pre{
+        text-align: center;
+    }
+    .introduction{
+        background-image: url(images/build.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 980px;
+        
+        
+    }
+    .introduction h1{
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 8em;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .firstline{
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+    }
+    .free{
+       background-color: yellow;
+       border-radius: 40px;
+       border: none;
+       padding: 20px;
+       box-shadow: 5px 5px 10px;
+       margin-bottom: 20px;
+       font-weight: bold;
+       font-size: 1.5em;
+       margin-top: 50px;
+       width: 600px;   
+    }
+    .pro{
+        background-color: red;
+        border-radius: 40px;
+        padding: 20px;
+        box-shadow: 3px 3px 5px;
+        margin-bottom: 30px;
+        font-weight: bold;
+        color: white;
+        font-size: 1.5em;
+        width: 600px;
+        border-color: white;
+        justify-content: center;
+        
+    }
+    .img{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    #last{
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 30px;
+    
+    }
+    #little{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .buttonlast{
+        text-align: center;
+        color: black;
+        font-size: 1.5em;
+        margin-bottom: 50px;
+    }
+    
+    #support ul li{
+        list-style: none;
+        text-decoration: none;
+        
+    }
+    #company ul li{
+        list-style: none;
+        text-decoration: none;
+        
+    }
+    #terms ul li{
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    
+    
+    
+    .bottom {
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr 0.5fr;
+        gap: 10px;
+        padding: 30px;
+        background: linear-gradient(to right, #e3eaf2, #fff);
+        
+        text-decoration: none;
+        list-style: none;
+    }
+    .bottom .support li{
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .bottom .company li{
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .bottom .terms li{
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+        
+      
+    </style>
+</head>
+<body>
+  <div class="firstnav">
+    <a href="">Pro</a>
+    <a href="">Teams</a>
+    <a href="">Pricing</a>
+    <a href="">Documentation</a>
+   
+  </div>
+ 
+  
+
+    <div class="search">
+      <h1>NPM</h1>
+      <div class="search-bar">
+        <input type="text" placeholder="🔍search packages">
+        <button class="searchbtn">Search</button>
+      </div>
+      <div class="sign">
+        <button class="up">Sign Up</button>
+        <button class="in">Sign In</button>
+      </div>
+    </div>
+    <br>
+    <div class="introduction">
+        <h1>Building Amazing <br>Things</h1>
+        <br>
+        <div class="firstline">
+          <p>We're GitHub the company behind the npm Registry and npm CLI. <br>
+          We offer those to the community for free, but our day job is Building <br>
+        and selling useful tools for developers like you</p>
+        </div>
+        <br>
+        <div class="firstline">
+          <h2>Take Your JavaScript Development up a Notch</h2>
+          <p>Get started today for free, or step up to npm pro to enjoy a premium <br>
+            JavaScript Development experience with features like private packages</p>
+        </div>
+        <div class="buttonlast">
+        <button class="free">Sign Up for Free</button><br>
+        <button class="pro">Learn About Pro</button>
+      </div>
+    </div>
+    
+  </div>
+  <div class="img"><img src="images/WhatsApp Image 2023-05-11 at 2.43.33 AM.jpeg" alt="Logo" style="height: 300px;"></div>
+  <p id="last"><b>Bring the best of open source to you, your team, <br>
+  and your company at large</b> </p>
+
+  <p id="little">Replied upon by more than 17 million developers</p>
+
+</div>
+
+    <section class="bottom">
+      
+      <div class="support">
+        <h3>&nbsp; &nbsp; Support</h3>
+          <ul>
+            <li><a href="">Help</a></li>
+            <li><a href="">Advisories</a></li>
+            <li><a href="">Status</a></li>
+            <li><a href="">Contact npm</a></li>
+          </ul>
+        
+      </div>
+      
+      <div class="company" style="margin-right: 25px;">
+        <h3>&nbsp; &nbsp;Company</h3>
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">blog</a></li>
+          <li><a href="">Press</a></li>
+        </ul>
+       </div>
+
+       <div class="terms" style="margin-right: 25px;">
+        <h3> &nbsp; &nbsp; Terms & Policies</h3>
+        <ul>
+          <li><a href="">Polices</a></li>
+          <li><a href="">Terms of Use</a></li>
+          <li><a href="">Code of Conduct</a></li>
+          <li><a href="">Privacy</a></li>
+        </ul>
+       </div>
+          
+      </section>
+</body>
+</html>
